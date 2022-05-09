@@ -32,8 +32,8 @@ namespace Desafio
                         {
                             sw.WriteLine($"{summary.Product.Name},{summary.GetTotal().ToString("F2", cultureInfo)}");
                         }
-                    }                 
-                }         
+                    }
+                }
             }
             catch (IOException e)
             {
